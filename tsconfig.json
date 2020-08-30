@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "declaration": true,
     "incremental": true,
     "target": "es2018",
     "module": "commonjs",
@@ -15,6 +16,9 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
   },
+  "include": [
+    "src"
+  ],
   "exclude": [
     "examples"
   ]
